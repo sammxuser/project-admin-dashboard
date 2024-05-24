@@ -186,6 +186,7 @@
 }
 .announcements-heading span {
   font-size: 18px;
+  padding-left: 10px;
 }
 .announcements-heading {
   grid-column: 3/4;
@@ -275,7 +276,7 @@
   grid-row: 1/2;
   display: grid;
   grid-template-rows: repeat(3, 120px);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .notice-1 {
   grid-row: 1/2;
@@ -304,6 +305,10 @@
   display: grid;
   grid-template-rows: 1fr;
 }
+.announcements-middle span {
+  font-weight: bold;
+  font-size: 18px;
+}
 .trending-heading {
   margin-bottom: 0px;
 }
@@ -312,6 +317,7 @@
   display: grid;
   grid-template-rows: repeat(4, 30px);
   background-color: #ffffff;
+  border-radius: 5px;
 }
 .trending-1 {
   grid-row: 1/2;
