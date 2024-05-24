@@ -9,66 +9,234 @@
     />
     <title>Project: Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="header">
         <div class="search-area">
-          <div class="search-form"></div>
-          <div class="salutation">Hi there</div>
+          <div class="search-form">
+            <div class="search-icon">
+              <i class="material-icons">search</i>
+            </div>
+            <div class="search-input">
+              <form action="" method="get">
+                <label for="search-term"></label>
+                <input type="text" name="search-query" id="query" />
+              </form>
+            </div>
+          </div>
+          <div class="salutation">
+            <div class="salutation-face">
+              <i class="large material-icons">face</i>
+            </div>
+            <div class="salutation-text">
+              <p>
+                <span>Hi there,</span><br />
+                Morgan Oakley(@morgan)
+              </p>
+            </div>
+          </div>
         </div>
         <div class="profile">
-          <div class="user-info"></div>
-          <div class="useful-buttons"></div>
+          <div class="user-info">
+            <div class="notifications">
+              <i class="large material-icons">notifications_active</i>
+            </div>
+            <div class="profile-face">
+              <i class="large material-icons">face</i>
+            </div>
+            <div class="profile-name"><span>Morgan Oakley</span></div>
+          </div>
+          <div class="useful-buttons">
+            <div class="new-button">
+              <button class="useful-button">New</button>
+            </div>
+            <div class="upload-button">
+              <button class="useful-button">Upload</button>
+            </div>
+            <div class="share-button">
+              <button class="useful-button">Share</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="sidebar">
-        <div class="branding">Dashboard</div>
+        <div class="branding">
+          <!-- <img src="images/logo.png" alt="Dashboard logo" srcset="" /> -->
+          <i class="large material-icons">dashboard</i>
+        </div>
+        <div class="branding-text"><h4>Dashboard</h4></div>
         <div class="links">
-          <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-          </ul>
+          <div class="home-link"><i class="material-icons">home</i></div>
+          <div>Home</div>
+          <div class="profile-link">
+            <i class="material-icons">account_box</i>
+          </div>
+          <div>Profile</div>
+          <div><i class="material-icons">message</i></div>
+          <div>Messages</div>
+          <div><i class="material-icons">access_time</i></div>
+          <div>History</div>
+          <div><i class="material-icons">list</i></div>
+          <div>Tasks</div>
+          <div><i class="material-icons">people</i></div>
+          <div>Communities</div>
         </div>
         <div class="settings">
-          <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-          </ul>
+          <div><i class="material-icons">settings</i></div>
+          <div class="settings-text">Settings</div>
+          <div><i class="material-icons">help</i></div>
+          <div class="support-text">Support</div>
+          <div><i class="material-icons">security</i></div>
+          <div class="privacy-text">Privacy</div>
         </div>
       </div>
       <div class="main">
         <div class="headings">
-          <div class="projects-heading">Your projects</div>
+          <div class="projects-heading"><span>Your projects</span></div>
         </div>
-        <div class="announcements-heading">Announcements</div>
+        <div class="announcements-heading"><span>Announcements</span></div>
         <div class="main-content">
           <div class="projects">
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
-            <div class="project-1"></div>
+            <div class="project-1">
+              <h4>Super Cool Project</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                soluta sit temporibus. Quisquam alias ad eius placeat quis nisi
+                libero?
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i>
+                <i class="small material-icons">share</i>
+              </p>
+            </div>
+            <div class="project-2">
+              <h4>Less Cool Project</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque
+                at quod, laboriosam corrupti illo ab ullam vel adipisci
+                consequatur.
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i>
+                <i class="small material-icons">share</i>
+              </p>
+            </div>
+            <div class="project-3">
+              <h4>Impossible App</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                earum harum beatae saepe autem culpa nobis labore. Sapiente,
+                praesentium consequuntur!
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i
+                ><i class="small material-icons">share</i>
+              </p>
+            </div>
+            <div class="project-4">
+              <h4>Easy Peasy App</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                officiis illo unde doloremque quod ratione tempora deserunt
+                optio provident inventore.
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i
+                ><i class="small material-icons">share</i>
+              </p>
+            </div>
+            <div class="project-5">
+              <h4>Ad Blocker</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                nobis quae natus molestias nesciunt tempore placeat cumque culpa
+                hic consequatur!
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i
+                ><i class="small material-icons">share</i>
+              </p>
+            </div>
+            <div class="project-6">
+              <h4>Money Maker</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                ratione soluta voluptates vel nobis ducimus, beatae magnam
+                laudantium molestiae sapiente.
+              </p>
+              <p class="bottom-align">
+                <i class="small material-icons">star_border</i>
+                <i class="small material-icons">visibility</i
+                ><i class="small material-icons">share</i>
+              </p>
+            </div>
           </div>
           <div class="announcements">
-            <div class="notice-1">Site Maintenance</div>
-            <div class="notice-2">Community Share Day</div>
-            <div class="notice-3">Updated Privacy Policy</div>
-            <div class="trending-heading">Trending</div>
-            <div class="trending-1">@tegan</div>
-            <div class="trending-2">@morgan</div>
-            <div class="trending-3">@kendall</div>
-            <div class="trending-4">@alex</div>
+            <div class="announcements-top">
+              <div class="notice-1">
+                <h4>Site Maintenance</h4>
+                <span
+                  >Lorem elit. Officia voluptate dignissimos ex beatae?</span
+                >
+              </div>
+              <div class="notice-2">
+                <hr />
+                <h4>Community Share Day</h4>
+                <span>
+                  adipisicing elit. Officia voluptate dignissimos ex
+                  beatae?</span
+                >
+              </div>
+              <div class="notice-3">
+                <hr />
+                <h4>Updated Privacy Policy</h4>
+                <span
+                  >Lorem elit. Officia voluptate dignissimos ex beatae?</span
+                >
+              </div>
+            </div>
+            <div class="announcements-middle">
+              <div class="trending-heading"><span>Trending</span></div>
+            </div>
+            <div class="announcements-bottom">
+              <div class="trending-1">
+                <div class="trending-1-pic">
+                  <i class="medium material-icons">face</i>
+                </div>
+                <div class="trending-1-text">@tegan</div>
+              </div>
+              <div class="trending-2">
+                <div class="trending-2-pic">
+                  <i class="medium material-icons">face</i>
+                </div>
+                <div class="trending-2-text">@morgan</div>
+              </div>
+              <div class="trending-3">
+                <div class="trending-3-pic">
+                  <i class="medium material-icons">face</i>
+                </div>
+                <div class="trending-3-text">@kendall</div>
+              </div>
+              <div class="trending-4">
+                <div class="trending-4-pic">
+                  <i class="medium material-icons">face</i>
+                </div>
+                <div class="trending-4-text">@alex</div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </div>
   </body>
 </html>
